@@ -16,8 +16,8 @@ public class LoginPage {
 	static WebElement loginButton;
 
 	public static  void LoginToApplication () {
-		uname.sendKeys("chandrasmi@gmail.com");
-		password.sendKeys("lalok6476");
+		uname.sendKeys("abc@gmail.com");
+		password.sendKeys("abc6476");
 		loginButton.click();
 		
 	}
